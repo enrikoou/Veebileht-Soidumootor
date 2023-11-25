@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
 }
 
 nav {
@@ -10,7 +11,8 @@ nav {
     align-items: center;
     min-height: 8vh;
     background-color: #f2f2f2;
-    font-family: 'Poppins', sans-serif;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 nav a {
@@ -20,15 +22,86 @@ nav a {
     font-size: 20px;
 }
 
+nav img {
+    height: 50px;
+}
+
 nav a:hover {
     color: #000;
     text-decoration: underline;
 }
 
 footer {
-    font-family: 'Poppins', sans-serif; 
     font-size: 1.5rem;
     background-color: #f2f2f2;
     padding: 2rem;
-    margin-top: 100vh;
+    margin-top: 5rem;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.logo-footer {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer img {
+    height: 5rem;
+}
+
+.text-footer {
+    margin-right: auto;
+}
+
+main {
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    background-color: black;
+    padding: 2rem;
+    opacity: 0.8;
+    border-radius: 50px;   
+    margin-top: 2rem;
+}
+
+main h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+main h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+main h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+main p {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.auto-pilt {
+    position: absolute;
+    top: 10rem;
+    width: 80%;
+    z-index: -99;
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
